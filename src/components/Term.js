@@ -106,8 +106,8 @@ export default function Term() {
                     usage: 'help',
                     fn: () => {
                         return `
-                            ${Object.keys(owrs).map(cmd => `${cmd}${" ".repeat(12-cmd.length)} | ${owrs[cmd].description}${" ".repeat(39-owrs[cmd].description.length)} | ${owrs[cmd].usage}`).join('\n')}
-                            ${Object.keys(cmds).map(cmd => `${cmd}${" ".repeat(12-cmd.length)} | ${cmds[cmd].description}${" ".repeat(39-cmds[cmd].description.length)} | ${cmds[cmd].usage}`).join('\n')}
+                            ${Object.keys(owrs).map(cmd => `${cmd}${" ".repeat(13-cmd.length)} | ${owrs[cmd].description}${" ".repeat(60-owrs[cmd].description.length)} | ${owrs[cmd].usage}`).join('\n')}
+                            ${Object.keys(cmds).map(cmd => `${cmd}${" ".repeat(13-cmd.length)} | ${cmds[cmd].description}${" ".repeat(60-cmds[cmd].description.length)} | ${cmds[cmd].usage}`).join('\n')}
                         `
                     }
                 },

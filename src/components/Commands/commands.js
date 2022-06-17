@@ -18,6 +18,21 @@ export default {
         //         return "fetching cat...\ncat fetched successfully!"
         //     }
         // },
+
+        bored: {
+            description: 'Get Activity suggestions because ur life is boring.',
+            usage: 'bored',
+            fn: async () => {
+                const result = await getactivity()
+                return `
+                You can\n
+                ---\n
+                Activity: ${result}\n---\n
+                `
+            },
+        },
+
+
         about: {
             description: 'About Me.',
             usage: 'about',
@@ -83,7 +98,7 @@ export default {
                 `
             }
         },
-        ascii: {
+        /*ascii: {
             description: 'ascii art.',
             usage: 'ascii',
             fn: () => {
@@ -97,19 +112,7 @@ export default {
                         </div>
                 )
             }
-        },
-            bored: {
-            description: 'Get Activity suggestions because ur life is boring.',
-            usage: 'bored',
-            fn: async () => {
-                const result = await getactivity()
-                return `
-                You can\n
-                ---\n
-                Activity: ${result}\n---\n
-                `
-            },
-        },
+        },*/
         fuck: {
             description: 'ascii art.',
             usage: 'fuck',
