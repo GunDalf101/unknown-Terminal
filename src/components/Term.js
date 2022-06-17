@@ -35,6 +35,7 @@ export default function Term() {
                         terminal.current.clearStdout()
                     }
                 },
+                
                 cat: {
                     description: 'Get a random cute cat~',
                     usage: 'cat',
@@ -124,10 +125,10 @@ export default function Term() {
                 width: '100%',     
             }}
             styleEchoBack='fullInherit'
-            contentStyle={{ color: '#ffb86c' , fontWeight: 'normal', paddingLeft: null}} // Text colour
+            contentStyle={{ color: '#0e6b0e' , fontWeight: 'normal', paddingLeft: null}} // Text colour
             promptLabelStyle={{ color: '#ff5555' , fontWeight:'normal'}} // Prompt label colour
-            inputTextStyle={{ color: '#f1fa8c' , fontWeight: 'normal'}}
-            messageStyle={{ color: '#8be9fd' , fontWeight: 'normal', paddingLeft: null}}
+            inputTextStyle={{ color: '#0e6b0e' , fontWeight: 'normal'}}
+            messageStyle={{ color: '#0e6b0e' , fontWeight: 'normal', paddingLeft: null}}
             scrollBehavior='auto'
             noDefaults
         />
