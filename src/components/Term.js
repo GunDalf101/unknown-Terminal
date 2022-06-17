@@ -35,6 +35,7 @@ export default function Term() {
                         terminal.current.clearStdout()
                     }
                 },
+                
                 cat: {
                     description: 'Get a random cute cat~',
                     usage: 'cat',
@@ -106,8 +107,8 @@ export default function Term() {
                     usage: 'help',
                     fn: () => {
                         return `
-                            ${Object.keys(owrs).map(cmd => `${cmd}${" ".repeat(12-cmd.length)} | ${owrs[cmd].description}${" ".repeat(39-owrs[cmd].description.length)} | ${owrs[cmd].usage}`).join('\n')}
-                            ${Object.keys(cmds).map(cmd => `${cmd}${" ".repeat(12-cmd.length)} | ${cmds[cmd].description}${" ".repeat(39-cmds[cmd].description.length)} | ${cmds[cmd].usage}`).join('\n')}
+                            ${Object.keys(owrs).map(cmd => `${cmd}${" ".repeat(12-cmd.length)} | ${owrs[cmd].description}${" ".repeat(60-owrs[cmd].description.length)} | ${owrs[cmd].usage}`).join('\n')}
+                            ${Object.keys(cmds).map(cmd => `${cmd}${" ".repeat(12-cmd.length)} | ${cmds[cmd].description}${" ".repeat(60-cmds[cmd].description.length)} | ${cmds[cmd].usage}`).join('\n')}
                         `
                     }
                 },
@@ -124,10 +125,10 @@ export default function Term() {
                 width: '100%',     
             }}
             styleEchoBack='fullInherit'
-            contentStyle={{ color: '#ffb86c' , fontWeight: 'normal', paddingLeft: null}} // Text colour
+            contentStyle={{ color: '#0e6b0e' , fontWeight: 'normal', paddingLeft: null}} // Text colour
             promptLabelStyle={{ color: '#ff5555' , fontWeight:'normal'}} // Prompt label colour
-            inputTextStyle={{ color: '#f1fa8c' , fontWeight: 'normal'}}
-            messageStyle={{ color: '#8be9fd' , fontWeight: 'normal', paddingLeft: null}}
+            inputTextStyle={{ color: '#0e6b0e' , fontWeight: 'normal'}}
+            messageStyle={{ color: '#0e6b0e' , fontWeight: 'normal', paddingLeft: null}}
             scrollBehavior='auto'
             noDefaults
         />
