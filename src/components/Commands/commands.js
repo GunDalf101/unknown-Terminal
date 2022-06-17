@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-import getcat from "../../utils/cat"
+import getspell from "../../utils/spells"
 import getnp from "../../utils/spotify"
 import getactivity from "../../utils/bored"
 export default {
@@ -98,24 +98,21 @@ export default {
                 `
             }
         },
-        /*ascii: {
-            description: 'ascii art.',
-            usage: 'ascii',
-            fn: () => {
-                return (
-                    <div data-letter-crap="././utils/unknown.png"
-                     data-lettercrap-aspect-ratio="0.0964360587"
-                      data-lettercrap-letters="01"
-                       data-lettercrap-words="lettercrap js damn"
-                        style="height: 17px;">
-
-                        </div>
-                )
-            }
-        },*/
-        fuck: {
-            description: 'ascii art.',
-            usage: 'fuck',
+        spell: {
+            description: 'get yo spell',
+            usage: 'spell',
+            fn: async () => {
+                const result = await getspell()
+                return `
+                You can\n
+                ---\n
+                Spell: ${result.name}\n---\n
+                `
+             }
+            },
+        facrap: {
+            description: 'philosophy of Ninja',
+            usage: 'facrap',
             fn: () => {
                 return (
                     <p><pre>

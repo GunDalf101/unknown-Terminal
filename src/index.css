@@ -60,17 +60,17 @@ pre {
 }
 
 ::-webkit-scrollbar-track {
-  background: #6272a4;
+  background: #0d660d;
   background-clip: content-box;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #bd93f9;
+  background: #9ccc9c;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #bd93f9;
+  background: #649568;
 }
 
 .container {
@@ -83,5 +83,5 @@ pre {
   border-radius: 10px;
   border:1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  border: 1px solid #bd93f9;
+  border: 3px solid #db2e2e;
 }
