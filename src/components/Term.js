@@ -8,23 +8,24 @@ export default function Term() {
     const cmds = commands.commands
     const owrs = commands.overwrites
     const terminal = React.createRef()
-    const [prompt, setPrompt] = React.useState('you@/ashterm:~$ ')
-    const [home, sethome] = React.useState('ashterm')
+    const [prompt, setPrompt] = React.useState('you@/unknown:~$ ')
+    const [home, sethome] = React.useState('unknown')
     const [dir, setdir] = React.useState({
-        'ashterm': []
+        'unknown': []
     })
     return (
         <Terminal
             ref={terminal}
             welcomeMessage={[
-                "Welcome to ashterm!",
+                "Welcome to the unknown terminal!",
                 "---",
-                "This is a terminal style website made with React.",
+                "In this game you'll have to find the clues by using the commands to find the first part of the unknown key.",
+                "---",
+                "REMINDER: if you find all the piece o the key your name will be listed in the unknown hall and you'll become an official member of the gang",
                 "---",
                 "Type 'help' to see a list of commands.",
                 "---",
-                "try starting with 'cat' (〜￣▽￣)〜",
-                "---",
+                
             ]}
             commands={{
                 clear: {

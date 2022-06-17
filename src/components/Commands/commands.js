@@ -21,14 +21,14 @@ export default {
             description: 'About Me.',
             usage: 'about',
             fn: () => {
-                return "About Me.\n---\nmale\n18\nstudent\nsolodev\nmelophile\nweeb\ndumb\napathetic\n---\n"
+                return "About Us.\n---\nwizards\ndevs\nhackers\ngangsta\nantisocial\ntime traveler\n---\n"
             }
         },
         twitter: {
             description: 'Opens my Twitter Handle.',
             usage: 'twitter',
             fn: () => {
-                window.open('https://twitter.com/_asheeshh', '_blank')
+                window.open('https://twitter.com/Gun__Dalf', '_blank')
                 return "opening twitter handle..."
             }
         },
@@ -36,7 +36,7 @@ export default {
             description: 'Opens my GitHub Profile.',
             usage: 'twitter',
             fn: () => {
-                window.open('https://github.com/asheeeshh', '_blank')
+                window.open('https://github.com/GunDalf101', '_blank')
                 return "opening github account..."
             }
         },
@@ -44,75 +44,28 @@ export default {
             description: 'Opens my Discord Account.',
             usage: 'twitter',
             fn: () => {
-                window.open('https://discordapp.com/users/784363251940458516', '_blank')
+                window.open('https://discordapp.com/users/583399997748412416', '_blank')
                 return "opening discord account..."
             }
         },
-        languages: {
-            description: 'Languages I know.',
-            usage: 'languages',
-            fn: () => {
-                return `
-                    these are the languages I know.\n---\n
-                    english          - 70%
-                    hindi            - 100%
-                    gen-z-langauge   - 00%
-                    python           - 60%
-                    javascript       - 60%
-                    html5            - 90%
-                    css3             - 80%
-                    ruby             - 40%
-                    rust             - 10% - [learning]
-                    go-lang          - 10% - [learning]\n---\n
-                `
-            }
-        },
-        skills: {
-            description: 'Skills I have.',
-            usage: 'skills',
-            fn: () => {
-                return `
-                    these are the skills I have.\n---\n
-                    procrastination  - 100%
-                    coding           - 50%
-                    studying         - 10%
-                    overthinking     - 100%
-                    social-skills    - 00%
-                    making-playlists - 100%\n---\n
-                `
-            }
-        },
+        
+        
         projects: {
             description: 'Projects I have worked on.',
             usage: 'projects',
             fn: () => {
                 return `
-                    Cool projects I have worked on.\n---\n
-                    'ashterm'                         | 'terminal portfolio'   | 'javascript'
-                    'octocolor'                       | 'github profile color' | 'javascript'
-                    'kanna-chan'                      | 'Discord-Bot'          | 'python'
-                    'wordinal'                        | 'wordle-on-terminal'   | 'javascript'
-                    'weeby.py'                        | 'API-wrapper'          | 'python'
-                    'gitbanner'                       | 'banner-generator'     | 'javascript'\n---\n
+                    Cool projects We have worked on.\n---\n
+                    [Redacted]'\n---\n
                 `
             }
         },
-        editor: {
-            description: 'Details about my current editor',
-            usage: 'editor',
-            fn: () => {
-                return `
-                    Editor: Visual Studio Code\n
-                    Theme : Catpuccin\n
-                    Font  : Consolas
-                `
-            }
-        },
+        
         repo: {
             description: "Opens this website's github repository.",
             usage: 'repo',
             fn: () => {
-                window.open("https://github.com/asheeeshh/AshTerm", '_blank')
+                window.open("https://github.com/GunDalf101/unknown-gang", '_blank')
                 return "opening repository..."
             }
         },
