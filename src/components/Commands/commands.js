@@ -40,7 +40,7 @@ export default {
                 return "About Us.\n---\nwizards\ndevs\nhackers\ngangsta\nantisocial\ntime traveler\n---\n"
             }
         },
-        twitter: {
+        twitterr: {
             description: 'Opens my Twitter Handle.',
             usage: 'twitter',
             fn: () => {
@@ -48,17 +48,17 @@ export default {
                 return "opening twitter handle..."
             }
         },
-        github: {
-            description: 'Opens my GitHub Profile.',
+        twitterrr: {
+            description: 'Opens my Twitter you cant Handle.',
             usage: 'twitter',
             fn: () => {
-                window.open('https://github.com/GunDalf101', '_blank')
-                return "opening github account..."
+                window.open('https://twitter.com/DevNamya', '_blank')
+                return "opening twitterrr account..."
             }
         },
         discord: {
             description: 'Opens my Discord Account.',
-            usage: 'twitter',
+            usage: 'discord',
             fn: () => {
                 window.open('https://discordapp.com/users/583399997748412416', '_blank')
                 return "opening discord account..."
