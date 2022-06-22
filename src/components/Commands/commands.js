@@ -98,15 +98,19 @@ export default {
                 `
             }
         },
+        // Make it work by API when backend
         spell: {
-            description: 'get yo spell',
+            description: 'Cast a random magic spell',
             usage: 'spell',
-            fn: async () => {
+            fn: 
+            
+            async () => {
                 const result = await getspell()
                 return `
-                You can\n
+                You cast\n
                 ---\n
-                Spell: ${result.name}\n---\n
+                Spell name: ${result.name}\n---\n
+                
                 `
              }
             },
@@ -163,7 +167,7 @@ export default {
             usage: 'clear'
         },
         cat: {
-            description: 'Get a cute cat image.',
+            description: "do NOT use this command",
             usage: 'cat',
         }
     }

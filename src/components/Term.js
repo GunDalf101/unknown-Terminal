@@ -21,7 +21,7 @@ export default function Term() {
                 "---",
                 "In this game you'll have to find the clues by using the commands to find the first part of the unknown key.",
                 "---",
-                "REMINDER: if you find all the piece o the key your name will be listed in the unknown hall and you'll become an official member of the gang",
+                "REMINDER: if you find all the piece of the key your name will be listed in the unknown hall and you'll become an official member of the gang",
                 "---",
                 "Type 'help' to see a list of commands.",
                 "---",
